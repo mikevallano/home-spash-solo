@@ -1,0 +1,47 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+  #main {
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    position: absolute;
+    line-height: 1em;
+
+  }
+
+  #clock {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    color: white;
+  }
+
+  #greeting {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: white;
+  }
+
+  #quote:before {
+    content: open-quote;
+  }
+
+  #quote {
+    position: absolute;
+    width: 100%;
+    bottom: 3em;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  #quote:after {
+    content: close-quote;
+  }
+
+
+
+
+// #main #clock
